@@ -165,7 +165,7 @@ export default async function handler(req, res) {
       form.append('key', CONFIG.IMGBB_API_KEY);
       form.append('image', base64Image);
 
-      const { data: uploadData } = await axios.post('https://api.imghippo.com/v1/upload', form, {
+      const { data: uploadData } = await axios.post('https://api.imgbb.com/1/upload', form, {
         headers: form.getHeaders()
       });
 
