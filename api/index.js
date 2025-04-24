@@ -162,7 +162,7 @@ export default async function handler(req, res) {
       const base64Image = Buffer.from(imageData).toString('base64');
 
       const form = new FormData();
-      form.append('key', CONFIG.IMGBB_API_KEY);
+      form.append('key', CONFIG.API_KEY);
       form.append('image', base64Image);
 
       const { data: uploadData } = await axios.post('https://api.imghippo.com/v1/upload', form, {
