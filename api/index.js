@@ -4,8 +4,8 @@ import FormData from 'form-data';
 
 // Keep the repository private and add your details. OK
 const CONFIG = {
-  BOT_TOKEN: '7641451413:AAEkpwmEL7BuiEQnHcjVUhgkkid5-azl8Bw',
-  IMGBB_API_KEY: '10b711c5b7e59b2c6bf9843372d43d9b',
+  BOT_TOKEN: '7632867723:AAHTIl6E4kweDPtiujkQzRYKxrTfJGmZpbQ',
+  IMGBB_API_KEY: '8a4000b6d88474af0a3576de3832e490',
   VERCEL_URL: 'https://t-api-kohl.vercel.app'
 };
 
