@@ -6,7 +6,7 @@ import FormData from 'form-data';
 const CONFIG = {
   BOT_TOKEN: '7632867723:AAHTIl6E4kweDPtiujkQzRYKxrTfJGmZpbQ',
   IMGBB_API_KEY: '8a4000b6d88474af0a3576de3832e490',
-  VERCEL_URL: 'https://t-api-kohl.vercel.app'
+  VERCEL_URL: 'https://imgbb-image-uploader.vercel.app'
 };
 
 const TELEGRAM_API = `https://api.telegram.org/bot${CONFIG.BOT_TOKEN}`;
