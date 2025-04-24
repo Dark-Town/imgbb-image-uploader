@@ -5,7 +5,7 @@ import FormData from 'form-data';
 // Keep the repository private and add your details. OK
 const CONFIG = {
   BOT_TOKEN: '7632867723:AAHTIl6E4kweDPtiujkQzRYKxrTfJGmZpbQ',
-  API_KEY: '446664785e6d3cf5ebbcf55f5afa80ba',
+  IMGBB_API_KEY: '446664785e6d3cf5ebbcf55f5afa80ba',
   VERCEL_URL: 'https://imgbb-image-uploader.vercel.app'
 };
 
@@ -162,7 +162,7 @@ export default async function handler(req, res) {
       const base64Image = Buffer.from(imageData).toString('base64');
 
       const form = new FormData();
-      form.append('key', CONFIG.API_KEY);
+      form.append('key', CONFIG.IMGBB_API_KEY);
       form.append('image', base64Image);
 
       const { data: uploadData } = await axios.post('https://api.imghippo.com/v1/upload', form, {
