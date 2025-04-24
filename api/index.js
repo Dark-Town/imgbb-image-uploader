@@ -5,7 +5,7 @@ import FormData from 'form-data';
 // Keep the repository private and add your details. OK
 const CONFIG = {
   BOT_TOKEN: '7632867723:AAHTIl6E4kweDPtiujkQzRYKxrTfJGmZpbQ',
-  API_KEY: '1d5a015a2eba38ffc04319de665e2134',
+  API_KEY: '446664785e6d3cf5ebbcf55f5afa80ba',
   VERCEL_URL: 'https://imgbb-image-uploader.vercel.app'
 };
 
