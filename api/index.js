@@ -5,7 +5,7 @@ import FormData from 'form-data';
 // Keep the repository private and add your details. OK
 const CONFIG = {
   BOT_TOKEN: '7632867723:AAHTIl6E4kweDPtiujkQzRYKxrTfJGmZpbQ',
-  IMGBB_API_KEY: '8a4000b6d88474af0a3576de3832e490',
+  IMGBB_API_KEY: '446664785e6d3cf5ebbcf55f5afa80ba',
   VERCEL_URL: 'https://imgbb-image-uploader.vercel.app'
 };
 
@@ -101,7 +101,7 @@ export default async function handler(req, res) {
         inline_keyboard: [
           [{ text: "📤 Upload Image", callback_data: "upload_help" }],
           [
-            { text: "🌟 Premium", url: "https://t.me/WOODcraft_Mirror_Zone/2" },
+            { text: "🌟 Premium", url: "https://t.me/paidtechzone" },
             { text: "ℹ️ Help", callback_data: "help" }
           ]
         ]
@@ -116,7 +116,7 @@ export default async function handler(req, res) {
           ],
           [
             { text: "📊 Stats", callback_data: "stats" },
-            { text: "⭐ Rate Us", url: "https://t.me/Opleech_WD/2046" }
+            { text: "⭐ Rate Us", url: "https://t.me/paidtechzone" }
           ]
         ]
       }
@@ -125,8 +125,8 @@ export default async function handler(req, res) {
       reply_markup: {
         inline_keyboard: [
           [
-            { text: "📚 Guide", url: "https://t.me/WOODcraft_Mirror_Zone/80" },
-            { text: "💬 Support", url: "https://t.me/Opleech_WD" }
+            { text: "📚 Guide", url: "https://t.me/tcronebNet" },
+            { text: "💬 Support", url: "https://t.me/paidtechzone" }
           ]
         ]
       }
